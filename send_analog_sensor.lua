@@ -1,14 +1,13 @@
---[=====[ 
-
-DeviceHUB.net sample code for sending analog sensor with ESP8266.
-
-In this example the sensor is simulated.
-
-created 3 June 2015
-by Alexandru Gheorghe
-
---]=====]
-
+--
+--
+-- DeviceHUB.net sample code for sending analog sensor with ESP8266.
+--
+-- In this example the sensor is simulated.
+--
+-- created 3 June 2015
+-- by Alexandru Gheorghe
+--
+--
 
 AN_SENSOR_NAME  = "paste_your_SENSOR_NAME_here"
 PROJECT_ID      = "paste_your_PROJECT_ID_here"
