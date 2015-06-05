@@ -49,7 +49,7 @@ function mqtt_do()
           -- simulation for analog sensor
           analog_sensor = 324
           
-          m:publish("/a/"..API_KEY.."/p/"..PROJECT_ID.."/d/"..DEVICE_UUID.."/sensor/"..AN_SENSOR_NAME, 
+          m:publish("/a/"..API_KEY.."/p/"..PROJECT_ID.."/d/"..DEVICE_UUID.."/sensor/"..AN_SENSOR_NAME.."/data", 
             "{\"value\": "..analog_sensor.."}", 0, 0,
           function(conn)
               -- Print confirmation of data published
