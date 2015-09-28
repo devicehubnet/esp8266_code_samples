@@ -8,13 +8,9 @@ All sample codes are made using the programming language LUA.
 
 We used NodeMCU 0.9.6-dev_20150704 float firmware, which has fully working MQTT. 
 It can be downloaded from: https://github.com/nodemcu/nodemcu-firmware/releases/tag/0.9.6-dev_20150704
-You can write it easily using the espTool https://github.com/themadinventor/esptool (Be sure to put GPIO0 to GND to be in bootloader mode when doing it)
-
+You can write it easily using the espTool here: https://github.com/themadinventor/esptool (Be sure to put GPIO0 to GND to be in bootloader mode when doing it)
 Please use the init.lua file for all samples. It will help you upload code easier and avoid errors on the module. Be sure to change the sample name in it before uploading.
-
-# Requirements (optional)
-For upload, we used ESPlorer which can be downloaded from here: 
-https://github.com/4refr0nt/ESPlorer
+For upload, we used ESPlorer which can be downloaded from here: https://github.com/4refr0nt/ESPlorer
 
 # Contributing
 Ideas, bugs, tests and pull requests always welcome.
